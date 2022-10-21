@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- CTRL+ALT+L ile duzelt line -->
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Jenkins All Test Suite"> <!-- bu ismi verdik aciklayicilik icin -->
+  <test name="Main test"> <!-- Bunu bole sadece main class adi verdik -->
+    <classes>
+      <class name="IsmetHocaAPI.Campus.CountryTest"> <!-- Burdaki methodlari sildik cunku class caluscak -->
+      </class>
+    </classes>
+  </test>
+</suite>
